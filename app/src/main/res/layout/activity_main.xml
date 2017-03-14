@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:id="@+id/activity_main"
+    a:background="@color/colorPrimaryDark"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:paddingBottom="@dimen/activity_vertical_margin"
+    a:paddingLeft="@dimen/activity_horizontal_margin"
+    a:paddingRight="@dimen/activity_horizontal_margin"
+    a:orientation="vertical"
+    a:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.mek.jogodavelha.MainActivity">
+
+    <TextView
+        a:text="TIC TAC TOE"
+        a:textColor="#fff"
+        a:gravity="center"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_alignParentTop="true"
+        a:layout_alignParentStart="true"
+        a:id="@+id/TICTACTOE"
+        a:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@+id/TICTACTOE"
+        a:layout_alignParentStart="true"
+        a:layout_marginTop="11dp"
+        a:layout_weight= "1">
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b0" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b1" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b2" />
+
+    </LinearLayout>
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_weight= "1">
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b3" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b4" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b5" />
+
+    </LinearLayout>
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_weight= "1">
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b6" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b7" />
+
+        <Button
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:textSize="60dp"
+            a:layout_margin="5dp"
+            a:background="@drawable/borda"
+            a:id="@+id/b8" />
+    </LinearLayout>
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal"
+        a:layout_marginTop="50dp">
+
+        <ToggleButton
+            a:text="PLAYER"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:background="@drawable/borda"
+            a:textOff="1 player"
+            a:textOn="2 players"
+            a:id="@+id/btn_player"
+            a:layout_weight="1" />
+        <Space
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_weight="1"/>
+        <Button
+            a:text="RESET"
+            a:id="@+id/btn_reset"
+            a:background="@drawable/borda"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
